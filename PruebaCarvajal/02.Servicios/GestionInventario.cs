@@ -21,14 +21,8 @@ namespace PruebaCarvajal._02.Servicios
                 {
 
 
-                   var resul= db.spActualizarInventario(CantidadDisponible, IdProducto);             
-                    
-
-                   
-                    if (Convert.ToInt32( resul)!=0)
-                    {
-                        Result = true;
-                    }
+                   var resul= db.spActualizarInventario(CantidadDisponible, IdProducto);
+                   Result = true;
 
 
                 }
